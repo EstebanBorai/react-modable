@@ -1,0 +1,33 @@
+{
+  "name": "react-modable",
+  "version": "1.0.0-2",
+  "description": "React.js modal management decorator",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanborai/react-modable.git"
+  },
+  "keywords": [
+    "react",
+    "modal",
+    "decorator"
+  ],
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanborai/react-modable/issues"
+  },
+  "homepage": "https://github.com/estebanborai/react-modable#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.1",
+    "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.5.0"
+  }
+}
