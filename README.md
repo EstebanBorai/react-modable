@@ -91,7 +91,8 @@ modal | String | The name (key) for the modal to be displayed from the *modals* 
 onModalClose | Function | The function to call in order to hide the modal.
 
 ### Modable Decorator
-`@Modable(modals, modalProps)`
+#### `@Modable(modals, modalProps)`
+
 Name | Type | Description
 ------------ | ------------- | -------------
 modals | Map | Keeps the collection of modal components to manage using Modable.
