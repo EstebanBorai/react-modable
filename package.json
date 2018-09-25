@@ -1,6 +1,6 @@
 {
   "name": "react-modable",
-  "version": "1.0.0-2",
+  "version": "1.0.0-4.1",
   "description": "React.js modal management decorator",
   "main": "dist/index.js",
   "scripts": {

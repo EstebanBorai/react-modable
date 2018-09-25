@@ -32,6 +32,8 @@ class Modal extends React.Component {
 
     if (this.props.modalStyle) {
       return { ...this.props.modalStyle, ..._default };
+    } else {
+      return _default;
     }
   }
 
