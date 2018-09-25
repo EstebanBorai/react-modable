@@ -29,5 +29,8 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "react": "^16.5.2"
   }
 }

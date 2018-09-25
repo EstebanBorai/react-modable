@@ -16,7 +16,7 @@ class Modal extends React.Component {
     };
 
 		if (this.props.curtainStyle) {
-			return { ...this.props.curtainStyle, ..._default };
+			return { ..._default, ...this.props.curtainStyle };
 		} else {
 			return _default;
 		}
@@ -31,7 +31,7 @@ class Modal extends React.Component {
     };
 
     if (this.props.modalStyle) {
-      return { ...this.props.modalStyle, ..._default };
+      return { ..._default, ...this.props.modalStyle };
     } else {
       return _default;
     }
