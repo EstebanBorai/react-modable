@@ -36,7 +36,7 @@ const Modal = ({
         document.removeEventListener('mousedown', event => handleClose(event));
         document.removeEventListener('keydown', event => handleClose(event));
       };
-    }, []);
+    });
   }
 
   const finalContainerClassNames = `react-modable-modal-container${containerClassName ? ` ${containerClassName}` : ''}`;
