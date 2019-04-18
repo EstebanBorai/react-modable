@@ -1,28 +1,36 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {
-  modalContainer, modalHeader, modalTitle, modalBody,
-} from './styles';
+import './modal.css';
 
-const Modal = ({ title, children }) => (
-  <section style={modalContainer}>
-    <div style={modalBody}>
-      <header style={modalHeader}>
-        <h2 style={modalTitle}>{title}</h2>
-      </header>
-      <main>
+const Modal = ({
+  children,
+  containerClassName,
+  bodyClassName,
+}) => {
+  const finalContainerClassNames = `react-modable-modal-container${containerClassName ? ` ${containerClassName}` : ''}`;
+  const finalBodyClassNames = `react-modable-modal-body${bodyClassName ? ` ${bodyClassName}` : ''}`;
+
+  return (
+    <section className={finalContainerClassNames}>
+      <div className={finalBodyClassNames}>
         {children}
-      </main>
-    </div>
-  </section>
-);
+      </div>
+    </section>
+  );
+};
+
+Modal.defaultProps = {
+  containerClassName: '',
+  bodyClassName: '',
+};
 
 Modal.propTypes = {
-  title: PropTypes.string.isRequired,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,
+  containerClassName: PropTypes.string,
+  bodyClassName: PropTypes.string,
 };
 
 export default Modal;

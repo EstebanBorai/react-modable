@@ -1,2 +1,2 @@
 # react-modable
-> Recharged
+> React.js modal component
