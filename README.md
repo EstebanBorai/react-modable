@@ -1,2 +1,2 @@
 # react-modable
-> React.js modal component
+> Minimalist React.js modal component

@@ -1,7 +1,7 @@
 {
   "name": "react-modable",
   "version": "1.0.1",
-  "description": "React.js modal component",
+  "description": "Minimalist React.js modal component",
   "main": "dist/index.js",
   "scripts": {
     "storybook": "start-storybook",
