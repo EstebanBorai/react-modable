@@ -29,7 +29,6 @@ const Modal = ({
 
   if (onClose) {
     React.useEffect(() => {
-      console.log('MOUNTED');
       document.addEventListener('mousedown', event => handleClose(event));
       document.addEventListener('keydown', event => handleClose(event));
 
