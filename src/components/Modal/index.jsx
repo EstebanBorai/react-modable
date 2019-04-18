@@ -29,6 +29,7 @@ const Modal = ({
 
   if (onClose) {
     React.useEffect(() => {
+      console.log('MOUNTED');
       document.addEventListener('mousedown', event => handleClose(event));
       document.addEventListener('keydown', event => handleClose(event));
 
@@ -36,7 +37,7 @@ const Modal = ({
         document.removeEventListener('mousedown', event => handleClose(event));
         document.removeEventListener('keydown', event => handleClose(event));
       };
-    }, []);
+    });
   }
 
   const finalContainerClassNames = `react-modable-modal-container${containerClassName ? ` ${containerClassName}` : ''}`;

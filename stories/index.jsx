@@ -4,7 +4,7 @@ import Modal, { Header } from '../src';
 import ModalWithHeaderAndChildren from './ModalWithHeaderAndChildren';
 import ModalWithOnClose from './ModalWithOnClose';
 
-storiesOf('Basic Modal', module)
+storiesOf('Modal', module)
   .add('Basic Modal', () => (
     <Modal isActive>
       Hello
