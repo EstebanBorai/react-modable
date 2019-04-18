@@ -4,6 +4,7 @@
   "description": "React.js modal management decorator",
   "main": "dist/index.js",
   "scripts": {
+    "storybook": "start-storybook",
     "build": "babel ./src --out-dir ./dist",
     "test": "test"
   },
@@ -24,13 +25,16 @@
   "homepage": "https://github.com/gitpullsh/react-modable#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.1",
+    "@babel/core": "^7.4.3",
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "eslint": "^5.5.0"
+    "@storybook/react": "^5.0.9",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.5.0",
+    "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "react": "^16.5.2"
+    "react": "^16.8.6"
   }
 }
