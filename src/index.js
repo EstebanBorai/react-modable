@@ -1,3 +1,3 @@
-export { default } from './Modable';
-export { default as Modal } from './Modal';
-export * from './redux';
+export { default } from './components/Modal';
+export { default as Header } from './components/Header';
+export { default as Main } from './components/Main';

@@ -1,9 +1,11 @@
 {
   "name": "react-modable",
-  "version": "1.0.0-4.1",
-  "description": "React.js modal management decorator",
+  "version": "1.0.1",
+  "description": "Minimalist React.js modal component",
   "main": "dist/index.js",
   "scripts": {
+    "storybook": "start-storybook",
+    "eslint-init": "eslint --init",
     "build": "babel ./src --out-dir ./dist",
     "test": "test"
   },
@@ -24,13 +26,21 @@
   "homepage": "https://github.com/gitpullsh/react-modable#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.1",
+    "@babel/core": "^7.4.3",
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "eslint": "^5.5.0"
+    "@storybook/react": "^5.0.9",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prop-types": "^15.7.2",
+    "react-dom": "^16.8.6"
   },
   "dependencies": {
-    "react": "^16.5.2"
+    "react": "^16.8.6"
   }
 }

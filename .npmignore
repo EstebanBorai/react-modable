@@ -6,3 +6,6 @@ node_modules
 src
 yarn.lock
 docs
+.storybook
+stories
+.eslintrc
