@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitpullsh/react-modable.git"
+    "url": "git+https://github.com/estebanborai/react-modable.git"
   },
   "keywords": [
     "react",
     "modal",
     "decorator"
   ],
-  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/gitpullsh)",
+  "author": "Esteban Borai <estebanborai@outlook.com> (https://github.com/estebanborai)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gitpullsh/react-modable/issues"
+    "url": "https://github.com/estebanborai/react-modable/issues"
   },
-  "homepage": "https://github.com/gitpullsh/react-modable#readme",
+  "homepage": "https://github.com/estebanborai/react-modable#readme",
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.4.3",
